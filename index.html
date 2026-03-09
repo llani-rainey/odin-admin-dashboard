@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Llani's Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <span class="logo-icon">🔳</span>
+                <h2>Dashboard</h2>
+            </div>
+            
+            <nav class="nav-links">
+                <ul>
+                    <li><span>🏠</span> Home</li>
+                    <li><span>👤</span> Profile</li>
+                    <li><span>💬</span> Messages</li>
+                    <li><span>🕒</span> History</li>
+                    <li><span>📝</span> Tasks</li>
+                    <li><span>👥</span> Communities</li>
+                </ul>
+            
+                <ul class="nav-bottom">
+                    <li><span>⚙️</span> Settings</li>
+                    <li><span>❓</span> Support</li>
+                    <li><span>🛡️</span> Privacy</li>
+                </ul>
+            </nav>
+        </aside>
+        <header class="header">
+            <div class="header-top">
+                <div class="search-container">
+                    <label for="search">🔍</label>
+                    <input type="text" id="search" name="search">
+                </div>
+                <div class="header-profile-mini">
+                    <div class="notification-icon">🔔</div>
+                    <div class="profile-pic-small"></div>
+                    <span class="user-name-bold">Morgan Oakley</span>
+                </div>
+            </div>
+
+            <div class="header-bottom">
+                <div class="user-info-large">
+                    <div class="profile-pic-large"></div>
+                    <div class="greeting-text">
+                        <p>Hi there,</p>
+                        <h1>Morgan Oakley (@morgan)</h1>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <button class="btn-primary">New</button>
+                    <button class="btn-primary">Upload</button>
+                    <button class="btn-primary">Share</button>
+                </div>
+            </div>
+        </header>
+        <main class="main-content">
+            <section class="projects">
+                <h2>My Projects</h2>
+                <div class="cards-container"> 
+                    <div class="card">
+                        <h3>Project Title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="card-icons"></div>
+                    </div>
+                    <div class="card">
+                        <h3>Project Title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="card-icons"></div>
+                    </div>
+                    <div class="card">
+                        <h3>Project Title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="card-icons"></div>
+                    </div>
+                    <div class="card">
+                        <h3>Project Title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="card-icons"></div>
+                    </div>
+                    <div class="card">
+                        <h3>Project Title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="card-icons"></div>
+                    </div>
+                    <div class="card">
+                        <h3>Project Title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="card-icons"></div>
+                    </div>
+                </div>
+                
+            </section>       
+            <div class="right-sidebar">
+                <section class="announcements">
+                    <h2>Announcements</h2>
+                    <div class="widget-box"> 
+                        <div class="announcement-item">
+                            <h4>Site Maintenance</h4>
+                            <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac...</p>
+                        </div>
+                        <div class="announcement-item">
+                            <h4>Community Share Day</h4>
+                            <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero...</p>
+                        </div>
+                        <div class="announcement-item">
+                            <h4>Updated Privacy Policy</h4>
+                            <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum...</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="trending">
+                    <h2>Trending</h2>
+                    <div class="widget-box"> 
+                        <div class="trending-item">
+                            <div class="profile-pic-small" style="background-color: #ff9999;"></div>
+                            <div class="trending-text">
+                                <p class="username">@tegan</p>
+                                <p class="subtext">World Peace Builder</p>
+                            </div>
+                        </div>
+                        <div class="trending-item">
+                            <div class="profile-pic-small" style="background-color: #ff9999;"></div>
+                            <div class="trending-text">
+                                <p class="username">@tegan</p>
+                                <p class="subtext">World Peace Builder</p>
+                            </div>
+                        </div>
+                        <div class="trending-item">
+                            <div class="profile-pic-small" style="background-color: #f0b429;"></div>
+                            <div class="trending-text">
+                                <p class="username">@morgan</p>
+                                <p class="subtext">Super Cool Project</p>
+                            </div>
+                        </div>
+                        <div class="trending-item">
+                            <div class="profile-pic-small" style="background-color: #5d5dff;"></div>
+                            <div class="trending-text">
+                                <p class="username">@kendall</p>
+                                <p class="subtext">Life Changing App</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    
+</body>
+</html>
+
+
+
+<!-- div.container>aside.sidebar+header.header+main.main-content>section.projects+section.announcements+section.trending  -->
+
+<!--
+div.card*6>h3{Project Title}+p{This is a short description of the project. It should be a couple of lines
+long.}+div.card-icons 
+-->
